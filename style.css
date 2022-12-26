@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100vh;
+    width: 100vw;
+    font-size: 18px;
+    
+}
+
+:root {
+    --Softred: hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    --Darkdesaturatedcyan: hsl(167, 40%, 24%);
+    --Darkblue: hsl(198, 62%, 26%);
+    --Darkmoderatecyan: hsl(168, 34%, 41%);
+
+    --Verydarkdesaturatedblue: hsl(212, 27%, 19%);
+    --Verydarkgrayishblue: hsl(213, 9%, 39%);
+    --Darkgrayishblue: hsl(232, 10%, 55%);
+    --Grayishblue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
+
+    /*  font-family: 'Barlow', sans-serif;
+        font-family: 'Fraunces', serif; 
+    */
+}
+
+header {
+    background-image: url(images/desktop/image-header.jpg);
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    padding-top: 0px;
+    height: 100%;
+    width: 100vw;
+
+    
+}
+
+.menu-acording {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu-a {
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.menu-a > a {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.8em;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+.menu-itens {
+    display: flex;
+    margin-right: 80px;
+    margin-top: 50px;
+    gap: 45px;
+}
+
+.menu-itens > div > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Barlow', sans-serif;
+}
+
+header > div > h1 {
+    text-align: center;
+    margin-top: 120px;
+    font-family: 'Fraunces', serif; 
+    font-size: 2.5em;
+    letter-spacing: 8px;
+    color: white;
+}
+
+.egg-section {
+    display: flex;
+}
+
+.box-egg-img {
+    width: 50%;
+    float: right;
+    background-clip: content-box;
+    width: 300px;
+}
+
+.egg-img {
+    background-clip: content-box;
+    width: 680px;
+}
+
+.egg-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    width: 50%;
+    float: left;
+    
+}
+
+.egg-content > h1 {
+    font-family: 'Fraunces', serif; 
+    font-size: 2.5em;
+    margin-right: 30px;   
+}
+
+.egg-content > p {
+    font-family: 'Barlow', sans-serif;
+    margin-left: 153px;
+    margin-top: 30px;
+    padding-right: 60px;
+    color: var(--Darkgrayishblue);
+}
+
+.egg-content > a {
+    text-decoration-color: var(--Yellow);
+    text-decoration-thickness: 2px;
+    color: black;
+    font-family:'Fraunces', serif;
+    letter-spacing: 2px;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-right: 200px;
+}
