@@ -34,6 +34,10 @@ body, html {
     */
 }
 
+@media screen and(max-width: 1200px) {
+    
+}
+
 header {
     background-image: url(images/desktop/image-header.jpg);
     background-position: top center;
@@ -58,7 +62,7 @@ header {
     margin-top: 30px;
 }
 
-.menu-a > a {
+.menu-a > div > a {
     font-family: 'Barlow', sans-serif;
     font-size: 1.8em;
     font-weight: 600;
@@ -388,6 +392,87 @@ footer {
     margin-top: 55px; 
 }
 
+.hamb {
+    display: none;
+}
+
 .icons > div > i {
     color: var(--Darkblue);
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    header {
+        background-image: url(images/desktop/image-header.jpg);
+        background-size: 190%;
+        width: 97%;
+        
+    }
+
+    .menu-acording {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-a {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 30px;
+        
+        
+    }
+
+    .hamb {
+        display: block;
+        margin-right: 20px;
+        margin-top: 12px;
+        cursor: pointer;
+    }
+
+    .menu-itens {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        display: none;
+        margin-left: 70px;
+        background-color: white;
+        gap: 30px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .menu-itens > div > a {
+        color: black;
+        font-family: 'Barlow', sans-serif;
+    }
+
+    header > div > h1 {
+        margin-top: 50px;
+        font-size: 2em;
+        
+    }
+
+    header > div > h1 > img {
+        margin-bottom: 131px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    } 
+    
+    .egg-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .egg-content {
+        display: flex;   
+    }
 }
