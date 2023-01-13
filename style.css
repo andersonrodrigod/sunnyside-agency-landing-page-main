@@ -12,6 +12,7 @@ body, html {
     height: 100vh;
     width: 100vw;
     font-size: 18px;
+    overflow-x: hidden;
     
     
 }
@@ -34,9 +35,7 @@ body, html {
     */
 }
 
-@media screen and(max-width: 1200px) {
-    
-}
+
 
 header {
     background-image: url(images/desktop/image-header.jpg);
@@ -47,6 +46,7 @@ header {
     padding-top: 0px;
     height: 100%;
     width: 100%;
+    
 
     
 }
@@ -106,6 +106,7 @@ header > div > h1 {
 
 .egg-section {
     display: flex;
+    
     margin-bottom: -5px;
 }
 
@@ -113,7 +114,7 @@ header > div > h1 {
     width: 50%;
     float: right;
     background-clip: content-box;
-    width: 300px;
+    
 }
 
 .egg-img {
@@ -406,12 +407,15 @@ footer {
         flex-direction: column;
         height: 100vh;
         width: 100vw;
+        overflow-x: hidden;
+        z-index: 2;
+        
     }
 
     header {
         background-image: url(images/desktop/image-header.jpg);
         background-size: 190%;
-        width: 97%;
+        width: 97vw;
         
     }
 
@@ -436,20 +440,30 @@ footer {
     }
 
     .menu-itens {
-        display: flex;
+        display: flex;   
+        position: absolute;
         flex-direction: column;
         text-align: center;
-        display: none;
+        top: 8%;
+        width: 350px;  
         margin-left: 70px;
         background-color: white;
-        gap: 30px;
-        padding-bottom: 20px;
-        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        z-index: 1;
     }
+
+    .display {
+        display: none;
+    }
+
+    
 
     .menu-itens > div > a {
         color: black;
         font-family: 'Barlow', sans-serif;
+        
+        
     }
 
     header > div > h1 {
@@ -469,10 +483,142 @@ footer {
     
     .egg-section {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .egg-content {
-        display: flex;   
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        width: 97vw;
+        margin-left: 10px;
+    }
+
+    .egg-img {
+        width: 97vw;
+    }
+
+    .egg-content h1 {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .egg-content p {
+        text-align: center;
+        margin-right: 170px;
+        padding: 0px;
+        width: 430px;
+    }
+
+    .egg-content a {
+        text-align: center;
+        margin-left: 170px;
+        padding: 0px;
+        width: 200px;
+    }
+
+    .cup-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cup-img {
+        width: 97vw;
+    }
+
+    .cup-content {
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        width: 97vw;
+        
+    }
+
+    .cup-content h1 {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .cup-content p {
+        text-align: center;
+        margin-right: 135px;
+        padding: 0px;
+        width: 400px;
+    }
+
+    .cup-content a { 
+        text-align: center;
+        margin-left: 215px;
+        padding: 0px;
+        width: 200px;
+    }
+
+    .cherry-orange {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cherry {
+        width: 97vw;
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+
+    .cherry-content h1 {
+        margin-top: 60px;
+    }
+
+    .cherry-content p {
+        text-align: center;
+        width: 400px;
+        padding: 0px;
+        margin-left: 45px;
+        padding-bottom: 30px;
+    }
+
+    .orange {
+        width: 97vw;
+        background-position: top center;
+        background-repeat: no-repeat; 
+    }
+
+    .orange-content h1 {
+        margin-top: 60px; 
+    }
+
+    .orange-content p {
+        text-align: center;
+        width: 400px;
+        padding: 0px;
+        margin-left: 45px;
+        padding-bottom: 30px;
+    }
+
+    .content-interactive {
+        display: flex;
+        flex-direction: column;
+        margin-top: 470px;
+    }
+
+    .content-prof {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .box-prof {
+        margin-top: 80px;
+    }
+
+    .photos {
+        display: flex;
+        flex-wrap: wrap;
+        width: 97vw;
+    }
+
+    .photos img {
+        flex: 0 0 50%;
     }
 }
