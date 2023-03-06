@@ -498,8 +498,8 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;  
+        text-align: center;
         width: 100vw;
-        margin-left: 10px;
     }
 
     .egg-img {
@@ -515,7 +515,7 @@ footer {
         text-align: center;
         margin-right: 170px;
         padding: 0px;
-        width: 430px;
+        width: 380px;
     }
 
     .egg-content a {
@@ -552,7 +552,7 @@ footer {
         text-align: center;
         margin-right: 135px;
         padding: 0px;
-        width: 400px;
+        width: 380px;
     }
 
     .cup-content a { 
@@ -579,7 +579,7 @@ footer {
 
     .cherry-content p {
         text-align: center;
-        width: 400px;
+        width: 380px;
         padding: 0px;
         margin-left: 45px;
         padding-bottom: 30px;
@@ -597,7 +597,7 @@ footer {
 
     .orange-content p {
         text-align: center;
-        width: 400px;
+        width: 380px;
         padding: 0px;
         margin-left: 45px;
         padding-bottom: 30px;
