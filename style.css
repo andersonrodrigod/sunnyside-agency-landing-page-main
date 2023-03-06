@@ -420,7 +420,7 @@ footer {
         background-image: url(images/desktop/image-header.jpg);
         min-height: 100vh;
         background-size:100vh;
-        width: 97vw;
+        width: 100vw;
         
     }
 
@@ -497,12 +497,12 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;  
-        width: 97vw;
+        width: 100vw;
         margin-left: 10px;
     }
 
     .egg-img {
-        width: 97vw;
+        width: 100vw;
     }
 
     .egg-content h1 {
@@ -530,7 +530,7 @@ footer {
     }
 
     .cup-img {
-        width: 97vw;
+        width: 100vw;
     }
 
     .cup-content {
@@ -538,7 +538,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;  
-        width: 97vw;
+        width: 100vw;
         
     }
 
@@ -567,7 +567,7 @@ footer {
     }
 
     .cherry {
-        width: 97vw;
+        width: 100vw;
         background-position: top center;
         background-repeat: no-repeat;
     }
@@ -585,7 +585,7 @@ footer {
     }
 
     .orange {
-        width: 97vw;
+        width: 100vw;
         background-position: top center;
         background-repeat: no-repeat; 
     }
@@ -621,7 +621,7 @@ footer {
     .photos {
         display: flex;
         flex-wrap: wrap;
-        width: 97vw;
+        width: 100vw;
     }
 
     .photos img {
