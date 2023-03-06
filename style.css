@@ -46,9 +46,7 @@ header {
     padding-top: 0px;
     height: 100%;
     width: 100%;
-    
-
-    
+    margin-bottom: -212px;
 }
 
 .menu-acording {
@@ -104,6 +102,8 @@ header > div > h1 {
     color: white;
 }
 
+
+
 .egg-section {
     display: flex;
     
@@ -111,15 +111,14 @@ header > div > h1 {
 }
 
 .box-egg-img {
-    width: 50%;
+    width: 47vw;
     float: right;
     background-clip: content-box;
     
 }
 
 .egg-img {
-    background-clip: content-box;
-    width: 680px;
+    width: 50vw;
 }
 
 .egg-content {
@@ -128,7 +127,7 @@ header > div > h1 {
     justify-content: center;
     align-items: center;
     margin-bottom: 80px;
-    width: 50%;
+    width: 50vw;
     float: left;
     
 }
@@ -169,7 +168,7 @@ header > div > h1 {
 
 .cup-img {
     background-clip: content-box;
-    width: 680px;
+    width: 50vw;
 }
 
 .cup-content {
@@ -178,8 +177,8 @@ header > div > h1 {
     justify-content: center;
     align-items: center;
     float: right;
-    width: 50%;
-    margin-bottom: 50px;
+    width: 50vw;
+    margin-bottom: 80px;
 }
 
 .cup-content h1 {
@@ -217,14 +216,14 @@ header > div > h1 {
 .cherry {
     background-image: url(images/desktop/image-graphic-design.jpg);
     float: left;
-    width: 50%;
+    width: 50.3vw;
     
 }
 
 .orange {
     background-image: url(images/desktop/image-photography.jpg);
     float: right;
-    width: 50%;
+    width: 49vw;
 }
 
 .cherry-content {
@@ -413,12 +412,14 @@ footer {
         width: 100vw;
         overflow-x: hidden;
         z-index: 2;
+        margin-bottom: 0;
         
     }
 
     header {
         background-image: url(images/desktop/image-header.jpg);
-        background-size: 190%;
+        min-height: 100vh;
+        background-size:100vh;
         width: 97vw;
         
     }
@@ -488,6 +489,7 @@ footer {
     .egg-section {
         display: flex;
         flex-direction: column-reverse;
+        margin-top: -189px;
     }
 
     .egg-content {
